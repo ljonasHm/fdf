@@ -31,5 +31,6 @@ int     deal_key(int key, void **param);
 void    read_fdf(t_fdf *fdf, char *file);
 int     read_height(char *file);
 void    error_exit(int error);
+int     no_spcs_len(char *line);
 
 #endif

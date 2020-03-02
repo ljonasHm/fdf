@@ -31,6 +31,9 @@ int main (int ac, char **av)
 		file = av[1];
 		fdf = (t_fdf*)malloc(sizeof(t_fdf));
 		read_fdf(fdf, file);
+		ft_putnbr(fdf->height);
+		ft_putchar('\n');
+		ft_putnbr(fdf->width);
 		fdf->mlx_ptr = mlx_init();
 		fdf->win_ptr = mlx_new_window(fdf->mlx_ptr, 500, 500, "mlx42");
 		mlx_loop(fdf->mlx_ptr);
