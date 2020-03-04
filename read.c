@@ -29,6 +29,21 @@ int     no_spcs_len(char *line)
 	return (n);
 }
 
+void    mas_in(int *mas, char *line)
+{
+    char    **numstr;
+    int     i;
+
+    numstr = ft_strsplit(line, ' ');
+    while (numstr[i])
+    {
+        mas[i] = ft_atoi(numstr[i]);
+        free(numstr[i]);
+        i++;
+    }
+    free(numstr);
+}
+
 int     read_height(char *file)
 {
 	int     fd;
@@ -62,6 +77,24 @@ int     read_width(char *file)
 
 void    read_fdf(t_fdf *fdf, char *file)
 {
+    int i;
+    int fd;
+    char *line;
+
+    i = 0;
 	fdf->height = read_height(file);
 	fdf->width = read_width(file);
+	fdf->mas = (int **)malloc(sizeof(int*) * fdf->height + 1);
+	while (i <= fdf->height)
+	    fdf->mas[i++] = (int*)malloc(sizeof(int) * (fdf->width + 1));
+	fd = open(file, O_RDONLY, 0);
+	i = 0;
+	while (get_next_line(fd, &line))
+    {
+	    mas_in(fdf->mas[i], line);
+	    free(line);
+	    i++;
+    }
+	fdf->mas[i] = NULL;
+	close(fd);
 }

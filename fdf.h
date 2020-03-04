@@ -12,8 +12,8 @@
 
 #ifndef FDF_H
 
-# include "libft.h"
-# include "mlx.h"
+# include "libft/libft.h"
+# include <mlx.h>
 # include <unistd.h>
 # include <stdlib.h>
 
@@ -21,7 +21,7 @@ typedef struct  s_fdf
 {
 	int     width;
 	int     height;
-	int     **z;
+	int     **mas;
 	
 	void    *mlx_ptr;
 	void    *win_ptr;
