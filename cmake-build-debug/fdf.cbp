@@ -8,165 +8,163 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/ljonas/fdf1/cmake-build-debug"/>
+				<Option working_dir="/home/ljonas/Рабочий стол/21/fdf/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ljonas/fdf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ljonas/fdf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ljonas/fdf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ljonas/fdf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ljonas/Рабочий\ стол/21/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ljonas/Рабочий\ стол/21/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ljonas/Рабочий\ стол/21/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ljonas/Рабочий\ стол/21/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/ljonas/fdf1/cmake-build-debug"/>
+				<Option working_dir="/home/ljonas/Рабочий стол/21/fdf/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ljonas/fdf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ljonas/fdf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ljonas/fdf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ljonas/fdf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/ljonas/fdf1/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ljonas/fdf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ljonas/fdf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ljonas/fdf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ljonas/fdf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ljonas/Рабочий\ стол/21/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ljonas/Рабочий\ стол/21/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ljonas/Рабочий\ стол/21/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ljonas/Рабочий\ стол/21/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="fdf">
-				<Option output="/Users/ljonas/fdf1/cmake-build-debug/fdf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ljonas/fdf1/cmake-build-debug"/>
+				<Option output="/home/ljonas/Рабочий стол/21/fdf/cmake-build-debug/fdf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ljonas/Рабочий стол/21/fdf/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/ljonas/fdf1/minilibx"/>
+					<Add directory="/home/ljonas/Рабочий стол/21/fdf/minilibx"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ljonas/fdf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 fdf"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ljonas/fdf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ljonas/fdf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ljonas/fdf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ljonas/Рабочий\ стол/21/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 fdf"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ljonas/Рабочий\ стол/21/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ljonas/Рабочий\ стол/21/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ljonas/Рабочий\ стол/21/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="fdf/fast">
-				<Option output="/Users/ljonas/fdf1/cmake-build-debug/fdf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ljonas/fdf1/cmake-build-debug"/>
+				<Option output="/home/ljonas/Рабочий стол/21/fdf/cmake-build-debug/fdf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ljonas/Рабочий стол/21/fdf/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/ljonas/fdf1/minilibx"/>
+					<Add directory="/home/ljonas/Рабочий стол/21/fdf/minilibx"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ljonas/fdf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 fdf/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ljonas/fdf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ljonas/fdf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ljonas/fdf1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ljonas/Рабочий\ стол/21/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 fdf/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ljonas/Рабочий\ стол/21/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ljonas/Рабочий\ стол/21/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ljonas/Рабочий\ стол/21/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ljonas/Рабочий стол/21/fdf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ljonas/Рабочий\ стол/21/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ljonas/Рабочий\ стол/21/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ljonas/Рабочий\ стол/21/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ljonas/Рабочий\ стол/21/fdf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/ljonas/fdf1/clears.c">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/clears.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/draw.c">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/draw.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/errors.c">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/errors.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/fdf.h">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/fdf.h">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/libft/ft_atoi.c">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/libft/ft_atoi.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/libft/ft_bzero.c">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/libft/ft_bzero.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/libft/ft_clear.c">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/libft/ft_clear.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/libft/ft_cleararr.c">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/libft/ft_cleararr.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/libft/ft_countwords.c">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/libft/ft_countwords.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/libft/ft_getword.c">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/libft/ft_getword.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/libft/ft_memalloc.c">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/libft/ft_memalloc.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/libft/ft_putchar.c">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/libft/ft_putchar.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/libft/ft_putnbr.c">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/libft/ft_putnbr.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/libft/ft_putstr.c">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/libft/ft_putstr.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/libft/ft_strcat.c">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/libft/ft_strcat.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/libft/ft_strchr.c">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/libft/ft_strchr.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/libft/ft_strclr.c">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/libft/ft_strclr.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/libft/ft_strcpy.c">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/libft/ft_strcpy.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/libft/ft_strdel.c">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/libft/ft_strdel.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/libft/ft_strjoin.c">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/libft/ft_strjoin.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/libft/ft_strlen.c">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/libft/ft_strlen.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/libft/ft_strnew.c">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/libft/ft_strnew.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/libft/ft_strsplit.c">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/libft/ft_strsplit.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/libft/ft_strsub.c">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/libft/ft_strsub.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/libft/get_next_line.c">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/libft/get_next_line.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/libft/libft.h">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/libft/libft.h">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/main.c">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/main.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/read.c">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/read.c">
 			<Option target="fdf"/>
 		</Unit>
-		<Unit filename="/Users/ljonas/fdf1/CMakeLists.txt">
+		<Unit filename="/home/ljonas/Рабочий стол/21/fdf/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

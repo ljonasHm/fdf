@@ -45,25 +45,24 @@ void    mas_in(int *mas, char *line)
     free(numstr);
 }
 
-int     read_height(char *file)
+void     read_hw(char *file, t_fdf *fdf)
 {
 	int     fd;
-	int     height;
 	char    *line;
 	
-	height = 0;
+	fdf->height = 0;
 	fd = open(file, O_RDONLY, 0);
 	while (get_next_line(fd, &line))
 	{
-		height++;
+	    fdf->width = no_spcs_len(line);
+		fdf->height++;
 		free(line);
 	}
 	free(line);
 	close(fd);
-	return (height);
 }
 
-int     read_width(char *file)
+/*int     read_width(char *file)
 {
 	int     fd;
 	char    *line;
@@ -71,11 +70,12 @@ int     read_width(char *file)
 	
 	fd = open(file, O_RDONLY, 0);
 	get_next_line(fd, &line);
+    printf("\n\n%s\n\n", line);
 	width = no_spcs_len(line);
 	free(line);
 	close(fd);
 	return (width);
-}
+}*/
 
 void    read_fdf(t_fdf *fdf, char *file)
 {
@@ -84,16 +84,15 @@ void    read_fdf(t_fdf *fdf, char *file)
     char *line;
 
     i = 0;
-	fdf->height = read_height(file);
-	fdf->width = read_width(file);
+	read_hw(file, fdf);
 	fdf->mas = (int **)malloc(sizeof(int*) * fdf->height + 1);
 	while (i < fdf->height)
 	    fdf->mas[i++] = (int*)malloc(sizeof(int) * (fdf->width + 1));
+    printf("\n\n%s\n\n", file);
 	fd = open(file, O_RDONLY, 0);
 	i = 0;
-	while (i < fdf->height)
+	while (get_next_line(fd, &line))
     {
-		get_next_line(fd, &line);
 	    mas_in(fdf->mas[i], line);
 	    free(line);
 	    i++;

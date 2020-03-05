@@ -30,8 +30,9 @@ typedef struct  s_fdf
 
 int     deal_key(int key, void **param);
 void    read_fdf(t_fdf *fdf, char *file);
-int     read_height(char *file);
-int     read_width(char *file);
+void    read_hw(char *file, t_fdf *fdf);
+//int     read_height(char *file);
+//int     read_width(char *file);
 void    read_fdf(t_fdf *fdf, char *file);
 void    error_exit(int error);
 int     no_spcs_len(char *line);

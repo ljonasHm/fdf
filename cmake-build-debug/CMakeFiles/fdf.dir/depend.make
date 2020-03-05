@@ -73,6 +73,7 @@ CMakeFiles/fdf.dir/libft/ft_strsub.c.o: ../libft/libft.h
 CMakeFiles/fdf.dir/libft/get_next_line.c.o: ../libft/get_next_line.c
 CMakeFiles/fdf.dir/libft/get_next_line.c.o: ../libft/libft.h
 
+CMakeFiles/fdf.dir/main.c.o: ../minilibx/mlx.h
 CMakeFiles/fdf.dir/main.c.o: ../fdf.h
 CMakeFiles/fdf.dir/main.c.o: ../libft/libft.h
 CMakeFiles/fdf.dir/main.c.o: ../main.c

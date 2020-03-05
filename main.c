@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include "fdf.h"
-
+#include <mlx.h>
 /*
  * keys
  * A - 0
@@ -50,11 +50,14 @@ int main (int ac, char **av)
 		    printf("\n");
 		    i++;
         }
+		fdf->mlx_ptr = mlx_init();
+		fdf->win_ptr = mlx_new_window(fdf->mlx_ptr, 1000, 900, "LJONAS");
+        linedraw(10, 10, 300, 600, fdf);
+//		mlx_key_hook(fdf->win_ptr, deal_key, NULL);
+		mlx_loop(fdf->mlx_ptr);
 		ft_clearintmas(fdf->mas, fdf->height);
 		free(fdf);
-		fdf->mlx_ptr = mlx_init();
-		fdf->win_ptr = mlx_new_window(fdf->mlx_ptr, 500, 500, "mlx42");
-		mlx_loop(fdf->mlx_ptr);
+//		mlx_loop(fdf->mlx_ptr);
 	}
 	else
 		error_exit(0);

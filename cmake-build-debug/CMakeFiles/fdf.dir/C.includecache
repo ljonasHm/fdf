@@ -6,3 +6,35 @@
 
 #IncludeRegexTransform: 
 
+../minilibx/mlx.h
+
+/home/ljonas/Рабочий стол/21/fdf/fdf.h
+libft/libft.h
+/home/ljonas/Рабочий стол/21/fdf/libft/libft.h
+mlx.h
+-
+unistd.h
+-
+stdlib.h
+-
+stdio.h
+-
+
+/home/ljonas/Рабочий стол/21/fdf/libft/libft.h
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+stdio.h
+-
+fcntl.h
+-
+
+/home/ljonas/Рабочий стол/21/fdf/main.c
+fdf.h
+/home/ljonas/Рабочий стол/21/fdf/fdf.h
+mlx.h
+-
+
