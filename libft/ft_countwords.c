@@ -23,7 +23,7 @@ int		ft_countwords(char const *s, char c)
 	{
 		if (s[i] == c)
 			i++;
-		if (s[i] != c)
+		else if (s[i] != c)
 		{
 			i = i + ft_getword((char*)&s[i], c);
 			words++;

@@ -6,7 +6,7 @@
 /*   By: ljonas <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/02 12:15:30 by ljonas            #+#    #+#             */
-/*   Updated: 2020/03/02 12:15:33 by ljonas           ###   ########.fr       */
+/*   Updated: 2020/03/05 15:13:53 by ljonas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,7 @@ void    mas_in(int *mas, char *line)
     char    **numstr;
     int     i;
 
+	i = 0;
     numstr = ft_strsplit(line, ' ');
     while (numstr[i])
     {
@@ -57,6 +58,7 @@ int     read_height(char *file)
 		height++;
 		free(line);
 	}
+	free(line);
 	close(fd);
 	return (height);
 }
@@ -85,16 +87,16 @@ void    read_fdf(t_fdf *fdf, char *file)
 	fdf->height = read_height(file);
 	fdf->width = read_width(file);
 	fdf->mas = (int **)malloc(sizeof(int*) * fdf->height + 1);
-	while (i <= fdf->height)
+	while (i < fdf->height)
 	    fdf->mas[i++] = (int*)malloc(sizeof(int) * (fdf->width + 1));
 	fd = open(file, O_RDONLY, 0);
 	i = 0;
-	while (get_next_line(fd, &line))
+	while (i < fdf->height)
     {
+		get_next_line(fd, &line);
 	    mas_in(fdf->mas[i], line);
 	    free(line);
 	    i++;
     }
-	fdf->mas[i] = NULL;
 	close(fd);
 }

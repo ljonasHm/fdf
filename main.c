@@ -37,17 +37,21 @@ int main (int ac, char **av)
 		ft_putnbr(fdf->height);
 		ft_putchar('\n');
 		ft_putnbr(fdf->width);
+		ft_putchar('\n');
 		i = 0;
 		while (i < fdf->height)
         {
 		    j = 0;
 		    while (j < fdf->width)
             {
-		        ft_putnbr(fdf->mas[i][j]);
+		        printf("%3d", fdf->mas[i][j]);
 		        j++;
             }
+		    printf("\n");
 		    i++;
         }
+		ft_clearintmas(fdf->mas, fdf->height);
+		free(fdf);
 		fdf->mlx_ptr = mlx_init();
 		fdf->win_ptr = mlx_new_window(fdf->mlx_ptr, 500, 500, "mlx42");
 		mlx_loop(fdf->mlx_ptr);

@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ljonas/fdf
+CMAKE_SOURCE_DIR = /Users/ljonas/fdf1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ljonas/fdf/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/ljonas/fdf1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/fdf.dir/depend.make
@@ -59,43 +59,403 @@ include CMakeFiles/fdf.dir/flags.make
 
 CMakeFiles/fdf.dir/main.c.o: CMakeFiles/fdf.dir/flags.make
 CMakeFiles/fdf.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/fdf.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/main.c.o   -c /Users/ljonas/fdf/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/fdf.dir/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/main.c.o   -c /Users/ljonas/fdf1/main.c
 
 CMakeFiles/fdf.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf/main.c > CMakeFiles/fdf.dir/main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf1/main.c > CMakeFiles/fdf.dir/main.c.i
 
 CMakeFiles/fdf.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf/main.c -o CMakeFiles/fdf.dir/main.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf1/main.c -o CMakeFiles/fdf.dir/main.c.s
 
 CMakeFiles/fdf.dir/read.c.o: CMakeFiles/fdf.dir/flags.make
 CMakeFiles/fdf.dir/read.c.o: ../read.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/fdf.dir/read.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/read.c.o   -c /Users/ljonas/fdf/read.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/fdf.dir/read.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/read.c.o   -c /Users/ljonas/fdf1/read.c
 
 CMakeFiles/fdf.dir/read.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/read.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf/read.c > CMakeFiles/fdf.dir/read.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf1/read.c > CMakeFiles/fdf.dir/read.c.i
 
 CMakeFiles/fdf.dir/read.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/read.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf/read.c -o CMakeFiles/fdf.dir/read.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf1/read.c -o CMakeFiles/fdf.dir/read.c.s
+
+CMakeFiles/fdf.dir/errors.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/errors.c.o: ../errors.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/fdf.dir/errors.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/errors.c.o   -c /Users/ljonas/fdf1/errors.c
+
+CMakeFiles/fdf.dir/errors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/errors.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf1/errors.c > CMakeFiles/fdf.dir/errors.c.i
+
+CMakeFiles/fdf.dir/errors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/errors.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf1/errors.c -o CMakeFiles/fdf.dir/errors.c.s
+
+CMakeFiles/fdf.dir/libft/ft_strsplit.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/libft/ft_strsplit.c.o: ../libft/ft_strsplit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/fdf.dir/libft/ft_strsplit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/libft/ft_strsplit.c.o   -c /Users/ljonas/fdf1/libft/ft_strsplit.c
+
+CMakeFiles/fdf.dir/libft/ft_strsplit.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/libft/ft_strsplit.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf1/libft/ft_strsplit.c > CMakeFiles/fdf.dir/libft/ft_strsplit.c.i
+
+CMakeFiles/fdf.dir/libft/ft_strsplit.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/libft/ft_strsplit.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf1/libft/ft_strsplit.c -o CMakeFiles/fdf.dir/libft/ft_strsplit.c.s
+
+CMakeFiles/fdf.dir/libft/ft_atoi.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/libft/ft_atoi.c.o: ../libft/ft_atoi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/fdf.dir/libft/ft_atoi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/libft/ft_atoi.c.o   -c /Users/ljonas/fdf1/libft/ft_atoi.c
+
+CMakeFiles/fdf.dir/libft/ft_atoi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/libft/ft_atoi.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf1/libft/ft_atoi.c > CMakeFiles/fdf.dir/libft/ft_atoi.c.i
+
+CMakeFiles/fdf.dir/libft/ft_atoi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/libft/ft_atoi.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf1/libft/ft_atoi.c -o CMakeFiles/fdf.dir/libft/ft_atoi.c.s
+
+CMakeFiles/fdf.dir/libft/ft_putnbr.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/libft/ft_putnbr.c.o: ../libft/ft_putnbr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/fdf.dir/libft/ft_putnbr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/libft/ft_putnbr.c.o   -c /Users/ljonas/fdf1/libft/ft_putnbr.c
+
+CMakeFiles/fdf.dir/libft/ft_putnbr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/libft/ft_putnbr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf1/libft/ft_putnbr.c > CMakeFiles/fdf.dir/libft/ft_putnbr.c.i
+
+CMakeFiles/fdf.dir/libft/ft_putnbr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/libft/ft_putnbr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf1/libft/ft_putnbr.c -o CMakeFiles/fdf.dir/libft/ft_putnbr.c.s
+
+CMakeFiles/fdf.dir/libft/ft_putchar.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/libft/ft_putchar.c.o: ../libft/ft_putchar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/fdf.dir/libft/ft_putchar.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/libft/ft_putchar.c.o   -c /Users/ljonas/fdf1/libft/ft_putchar.c
+
+CMakeFiles/fdf.dir/libft/ft_putchar.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/libft/ft_putchar.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf1/libft/ft_putchar.c > CMakeFiles/fdf.dir/libft/ft_putchar.c.i
+
+CMakeFiles/fdf.dir/libft/ft_putchar.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/libft/ft_putchar.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf1/libft/ft_putchar.c -o CMakeFiles/fdf.dir/libft/ft_putchar.c.s
+
+CMakeFiles/fdf.dir/libft/ft_putstr.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/libft/ft_putstr.c.o: ../libft/ft_putstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/fdf.dir/libft/ft_putstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/libft/ft_putstr.c.o   -c /Users/ljonas/fdf1/libft/ft_putstr.c
+
+CMakeFiles/fdf.dir/libft/ft_putstr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/libft/ft_putstr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf1/libft/ft_putstr.c > CMakeFiles/fdf.dir/libft/ft_putstr.c.i
+
+CMakeFiles/fdf.dir/libft/ft_putstr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/libft/ft_putstr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf1/libft/ft_putstr.c -o CMakeFiles/fdf.dir/libft/ft_putstr.c.s
+
+CMakeFiles/fdf.dir/libft/ft_clear.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/libft/ft_clear.c.o: ../libft/ft_clear.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/fdf.dir/libft/ft_clear.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/libft/ft_clear.c.o   -c /Users/ljonas/fdf1/libft/ft_clear.c
+
+CMakeFiles/fdf.dir/libft/ft_clear.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/libft/ft_clear.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf1/libft/ft_clear.c > CMakeFiles/fdf.dir/libft/ft_clear.c.i
+
+CMakeFiles/fdf.dir/libft/ft_clear.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/libft/ft_clear.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf1/libft/ft_clear.c -o CMakeFiles/fdf.dir/libft/ft_clear.c.s
+
+CMakeFiles/fdf.dir/libft/get_next_line.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/libft/get_next_line.c.o: ../libft/get_next_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/fdf.dir/libft/get_next_line.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/libft/get_next_line.c.o   -c /Users/ljonas/fdf1/libft/get_next_line.c
+
+CMakeFiles/fdf.dir/libft/get_next_line.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/libft/get_next_line.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf1/libft/get_next_line.c > CMakeFiles/fdf.dir/libft/get_next_line.c.i
+
+CMakeFiles/fdf.dir/libft/get_next_line.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/libft/get_next_line.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf1/libft/get_next_line.c -o CMakeFiles/fdf.dir/libft/get_next_line.c.s
+
+CMakeFiles/fdf.dir/libft/ft_cleararr.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/libft/ft_cleararr.c.o: ../libft/ft_cleararr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/fdf.dir/libft/ft_cleararr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/libft/ft_cleararr.c.o   -c /Users/ljonas/fdf1/libft/ft_cleararr.c
+
+CMakeFiles/fdf.dir/libft/ft_cleararr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/libft/ft_cleararr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf1/libft/ft_cleararr.c > CMakeFiles/fdf.dir/libft/ft_cleararr.c.i
+
+CMakeFiles/fdf.dir/libft/ft_cleararr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/libft/ft_cleararr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf1/libft/ft_cleararr.c -o CMakeFiles/fdf.dir/libft/ft_cleararr.c.s
+
+CMakeFiles/fdf.dir/libft/ft_countwords.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/libft/ft_countwords.c.o: ../libft/ft_countwords.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/fdf.dir/libft/ft_countwords.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/libft/ft_countwords.c.o   -c /Users/ljonas/fdf1/libft/ft_countwords.c
+
+CMakeFiles/fdf.dir/libft/ft_countwords.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/libft/ft_countwords.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf1/libft/ft_countwords.c > CMakeFiles/fdf.dir/libft/ft_countwords.c.i
+
+CMakeFiles/fdf.dir/libft/ft_countwords.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/libft/ft_countwords.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf1/libft/ft_countwords.c -o CMakeFiles/fdf.dir/libft/ft_countwords.c.s
+
+CMakeFiles/fdf.dir/libft/ft_getword.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/libft/ft_getword.c.o: ../libft/ft_getword.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/fdf.dir/libft/ft_getword.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/libft/ft_getword.c.o   -c /Users/ljonas/fdf1/libft/ft_getword.c
+
+CMakeFiles/fdf.dir/libft/ft_getword.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/libft/ft_getword.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf1/libft/ft_getword.c > CMakeFiles/fdf.dir/libft/ft_getword.c.i
+
+CMakeFiles/fdf.dir/libft/ft_getword.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/libft/ft_getword.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf1/libft/ft_getword.c -o CMakeFiles/fdf.dir/libft/ft_getword.c.s
+
+CMakeFiles/fdf.dir/libft/ft_memalloc.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/libft/ft_memalloc.c.o: ../libft/ft_memalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/fdf.dir/libft/ft_memalloc.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/libft/ft_memalloc.c.o   -c /Users/ljonas/fdf1/libft/ft_memalloc.c
+
+CMakeFiles/fdf.dir/libft/ft_memalloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/libft/ft_memalloc.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf1/libft/ft_memalloc.c > CMakeFiles/fdf.dir/libft/ft_memalloc.c.i
+
+CMakeFiles/fdf.dir/libft/ft_memalloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/libft/ft_memalloc.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf1/libft/ft_memalloc.c -o CMakeFiles/fdf.dir/libft/ft_memalloc.c.s
+
+CMakeFiles/fdf.dir/libft/ft_strcat.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/libft/ft_strcat.c.o: ../libft/ft_strcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/fdf.dir/libft/ft_strcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/libft/ft_strcat.c.o   -c /Users/ljonas/fdf1/libft/ft_strcat.c
+
+CMakeFiles/fdf.dir/libft/ft_strcat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/libft/ft_strcat.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf1/libft/ft_strcat.c > CMakeFiles/fdf.dir/libft/ft_strcat.c.i
+
+CMakeFiles/fdf.dir/libft/ft_strcat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/libft/ft_strcat.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf1/libft/ft_strcat.c -o CMakeFiles/fdf.dir/libft/ft_strcat.c.s
+
+CMakeFiles/fdf.dir/libft/ft_strchr.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/libft/ft_strchr.c.o: ../libft/ft_strchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/fdf.dir/libft/ft_strchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/libft/ft_strchr.c.o   -c /Users/ljonas/fdf1/libft/ft_strchr.c
+
+CMakeFiles/fdf.dir/libft/ft_strchr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/libft/ft_strchr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf1/libft/ft_strchr.c > CMakeFiles/fdf.dir/libft/ft_strchr.c.i
+
+CMakeFiles/fdf.dir/libft/ft_strchr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/libft/ft_strchr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf1/libft/ft_strchr.c -o CMakeFiles/fdf.dir/libft/ft_strchr.c.s
+
+CMakeFiles/fdf.dir/libft/ft_strclr.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/libft/ft_strclr.c.o: ../libft/ft_strclr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/fdf.dir/libft/ft_strclr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/libft/ft_strclr.c.o   -c /Users/ljonas/fdf1/libft/ft_strclr.c
+
+CMakeFiles/fdf.dir/libft/ft_strclr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/libft/ft_strclr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf1/libft/ft_strclr.c > CMakeFiles/fdf.dir/libft/ft_strclr.c.i
+
+CMakeFiles/fdf.dir/libft/ft_strclr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/libft/ft_strclr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf1/libft/ft_strclr.c -o CMakeFiles/fdf.dir/libft/ft_strclr.c.s
+
+CMakeFiles/fdf.dir/libft/ft_strdel.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/libft/ft_strdel.c.o: ../libft/ft_strdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/fdf.dir/libft/ft_strdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/libft/ft_strdel.c.o   -c /Users/ljonas/fdf1/libft/ft_strdel.c
+
+CMakeFiles/fdf.dir/libft/ft_strdel.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/libft/ft_strdel.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf1/libft/ft_strdel.c > CMakeFiles/fdf.dir/libft/ft_strdel.c.i
+
+CMakeFiles/fdf.dir/libft/ft_strdel.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/libft/ft_strdel.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf1/libft/ft_strdel.c -o CMakeFiles/fdf.dir/libft/ft_strdel.c.s
+
+CMakeFiles/fdf.dir/libft/ft_strcpy.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/libft/ft_strcpy.c.o: ../libft/ft_strcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/fdf.dir/libft/ft_strcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/libft/ft_strcpy.c.o   -c /Users/ljonas/fdf1/libft/ft_strcpy.c
+
+CMakeFiles/fdf.dir/libft/ft_strcpy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/libft/ft_strcpy.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf1/libft/ft_strcpy.c > CMakeFiles/fdf.dir/libft/ft_strcpy.c.i
+
+CMakeFiles/fdf.dir/libft/ft_strcpy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/libft/ft_strcpy.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf1/libft/ft_strcpy.c -o CMakeFiles/fdf.dir/libft/ft_strcpy.c.s
+
+CMakeFiles/fdf.dir/libft/ft_strjoin.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/libft/ft_strjoin.c.o: ../libft/ft_strjoin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/fdf.dir/libft/ft_strjoin.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/libft/ft_strjoin.c.o   -c /Users/ljonas/fdf1/libft/ft_strjoin.c
+
+CMakeFiles/fdf.dir/libft/ft_strjoin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/libft/ft_strjoin.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf1/libft/ft_strjoin.c > CMakeFiles/fdf.dir/libft/ft_strjoin.c.i
+
+CMakeFiles/fdf.dir/libft/ft_strjoin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/libft/ft_strjoin.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf1/libft/ft_strjoin.c -o CMakeFiles/fdf.dir/libft/ft_strjoin.c.s
+
+CMakeFiles/fdf.dir/libft/ft_strlen.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/libft/ft_strlen.c.o: ../libft/ft_strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/fdf.dir/libft/ft_strlen.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/libft/ft_strlen.c.o   -c /Users/ljonas/fdf1/libft/ft_strlen.c
+
+CMakeFiles/fdf.dir/libft/ft_strlen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/libft/ft_strlen.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf1/libft/ft_strlen.c > CMakeFiles/fdf.dir/libft/ft_strlen.c.i
+
+CMakeFiles/fdf.dir/libft/ft_strlen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/libft/ft_strlen.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf1/libft/ft_strlen.c -o CMakeFiles/fdf.dir/libft/ft_strlen.c.s
+
+CMakeFiles/fdf.dir/libft/ft_strnew.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/libft/ft_strnew.c.o: ../libft/ft_strnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/fdf.dir/libft/ft_strnew.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/libft/ft_strnew.c.o   -c /Users/ljonas/fdf1/libft/ft_strnew.c
+
+CMakeFiles/fdf.dir/libft/ft_strnew.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/libft/ft_strnew.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf1/libft/ft_strnew.c > CMakeFiles/fdf.dir/libft/ft_strnew.c.i
+
+CMakeFiles/fdf.dir/libft/ft_strnew.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/libft/ft_strnew.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf1/libft/ft_strnew.c -o CMakeFiles/fdf.dir/libft/ft_strnew.c.s
+
+CMakeFiles/fdf.dir/libft/ft_strsub.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/libft/ft_strsub.c.o: ../libft/ft_strsub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/fdf.dir/libft/ft_strsub.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/libft/ft_strsub.c.o   -c /Users/ljonas/fdf1/libft/ft_strsub.c
+
+CMakeFiles/fdf.dir/libft/ft_strsub.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/libft/ft_strsub.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf1/libft/ft_strsub.c > CMakeFiles/fdf.dir/libft/ft_strsub.c.i
+
+CMakeFiles/fdf.dir/libft/ft_strsub.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/libft/ft_strsub.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf1/libft/ft_strsub.c -o CMakeFiles/fdf.dir/libft/ft_strsub.c.s
+
+CMakeFiles/fdf.dir/libft/ft_bzero.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/libft/ft_bzero.c.o: ../libft/ft_bzero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/fdf.dir/libft/ft_bzero.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/libft/ft_bzero.c.o   -c /Users/ljonas/fdf1/libft/ft_bzero.c
+
+CMakeFiles/fdf.dir/libft/ft_bzero.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/libft/ft_bzero.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf1/libft/ft_bzero.c > CMakeFiles/fdf.dir/libft/ft_bzero.c.i
+
+CMakeFiles/fdf.dir/libft/ft_bzero.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/libft/ft_bzero.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf1/libft/ft_bzero.c -o CMakeFiles/fdf.dir/libft/ft_bzero.c.s
+
+CMakeFiles/fdf.dir/clears.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/clears.c.o: ../clears.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/fdf.dir/clears.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/clears.c.o   -c /Users/ljonas/fdf1/clears.c
+
+CMakeFiles/fdf.dir/clears.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/clears.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf1/clears.c > CMakeFiles/fdf.dir/clears.c.i
+
+CMakeFiles/fdf.dir/clears.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/clears.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf1/clears.c -o CMakeFiles/fdf.dir/clears.c.s
+
+CMakeFiles/fdf.dir/draw.c.o: CMakeFiles/fdf.dir/flags.make
+CMakeFiles/fdf.dir/draw.c.o: ../draw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/fdf.dir/draw.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fdf.dir/draw.c.o   -c /Users/ljonas/fdf1/draw.c
+
+CMakeFiles/fdf.dir/draw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fdf.dir/draw.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ljonas/fdf1/draw.c > CMakeFiles/fdf.dir/draw.c.i
+
+CMakeFiles/fdf.dir/draw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fdf.dir/draw.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ljonas/fdf1/draw.c -o CMakeFiles/fdf.dir/draw.c.s
 
 # Object files for target fdf
 fdf_OBJECTS = \
 "CMakeFiles/fdf.dir/main.c.o" \
-"CMakeFiles/fdf.dir/read.c.o"
+"CMakeFiles/fdf.dir/read.c.o" \
+"CMakeFiles/fdf.dir/errors.c.o" \
+"CMakeFiles/fdf.dir/libft/ft_strsplit.c.o" \
+"CMakeFiles/fdf.dir/libft/ft_atoi.c.o" \
+"CMakeFiles/fdf.dir/libft/ft_putnbr.c.o" \
+"CMakeFiles/fdf.dir/libft/ft_putchar.c.o" \
+"CMakeFiles/fdf.dir/libft/ft_putstr.c.o" \
+"CMakeFiles/fdf.dir/libft/ft_clear.c.o" \
+"CMakeFiles/fdf.dir/libft/get_next_line.c.o" \
+"CMakeFiles/fdf.dir/libft/ft_cleararr.c.o" \
+"CMakeFiles/fdf.dir/libft/ft_countwords.c.o" \
+"CMakeFiles/fdf.dir/libft/ft_getword.c.o" \
+"CMakeFiles/fdf.dir/libft/ft_memalloc.c.o" \
+"CMakeFiles/fdf.dir/libft/ft_strcat.c.o" \
+"CMakeFiles/fdf.dir/libft/ft_strchr.c.o" \
+"CMakeFiles/fdf.dir/libft/ft_strclr.c.o" \
+"CMakeFiles/fdf.dir/libft/ft_strdel.c.o" \
+"CMakeFiles/fdf.dir/libft/ft_strcpy.c.o" \
+"CMakeFiles/fdf.dir/libft/ft_strjoin.c.o" \
+"CMakeFiles/fdf.dir/libft/ft_strlen.c.o" \
+"CMakeFiles/fdf.dir/libft/ft_strnew.c.o" \
+"CMakeFiles/fdf.dir/libft/ft_strsub.c.o" \
+"CMakeFiles/fdf.dir/libft/ft_bzero.c.o" \
+"CMakeFiles/fdf.dir/clears.c.o" \
+"CMakeFiles/fdf.dir/draw.c.o"
 
 # External object files for target fdf
 fdf_EXTERNAL_OBJECTS =
 
 fdf: CMakeFiles/fdf.dir/main.c.o
 fdf: CMakeFiles/fdf.dir/read.c.o
+fdf: CMakeFiles/fdf.dir/errors.c.o
+fdf: CMakeFiles/fdf.dir/libft/ft_strsplit.c.o
+fdf: CMakeFiles/fdf.dir/libft/ft_atoi.c.o
+fdf: CMakeFiles/fdf.dir/libft/ft_putnbr.c.o
+fdf: CMakeFiles/fdf.dir/libft/ft_putchar.c.o
+fdf: CMakeFiles/fdf.dir/libft/ft_putstr.c.o
+fdf: CMakeFiles/fdf.dir/libft/ft_clear.c.o
+fdf: CMakeFiles/fdf.dir/libft/get_next_line.c.o
+fdf: CMakeFiles/fdf.dir/libft/ft_cleararr.c.o
+fdf: CMakeFiles/fdf.dir/libft/ft_countwords.c.o
+fdf: CMakeFiles/fdf.dir/libft/ft_getword.c.o
+fdf: CMakeFiles/fdf.dir/libft/ft_memalloc.c.o
+fdf: CMakeFiles/fdf.dir/libft/ft_strcat.c.o
+fdf: CMakeFiles/fdf.dir/libft/ft_strchr.c.o
+fdf: CMakeFiles/fdf.dir/libft/ft_strclr.c.o
+fdf: CMakeFiles/fdf.dir/libft/ft_strdel.c.o
+fdf: CMakeFiles/fdf.dir/libft/ft_strcpy.c.o
+fdf: CMakeFiles/fdf.dir/libft/ft_strjoin.c.o
+fdf: CMakeFiles/fdf.dir/libft/ft_strlen.c.o
+fdf: CMakeFiles/fdf.dir/libft/ft_strnew.c.o
+fdf: CMakeFiles/fdf.dir/libft/ft_strsub.c.o
+fdf: CMakeFiles/fdf.dir/libft/ft_bzero.c.o
+fdf: CMakeFiles/fdf.dir/clears.c.o
+fdf: CMakeFiles/fdf.dir/draw.c.o
 fdf: CMakeFiles/fdf.dir/build.make
 fdf: CMakeFiles/fdf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ljonas/fdf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable fdf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ljonas/fdf1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking C executable fdf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fdf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +468,6 @@ CMakeFiles/fdf.dir/clean:
 .PHONY : CMakeFiles/fdf.dir/clean
 
 CMakeFiles/fdf.dir/depend:
-	cd /Users/ljonas/fdf/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ljonas/fdf /Users/ljonas/fdf /Users/ljonas/fdf/cmake-build-debug /Users/ljonas/fdf/cmake-build-debug /Users/ljonas/fdf/cmake-build-debug/CMakeFiles/fdf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/ljonas/fdf1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ljonas/fdf1 /Users/ljonas/fdf1 /Users/ljonas/fdf1/cmake-build-debug /Users/ljonas/fdf1/cmake-build-debug /Users/ljonas/fdf1/cmake-build-debug/CMakeFiles/fdf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/fdf.dir/depend
 
