@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/ljonas/Загрузки/clion-2019.3.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /home/ljonas/Загрузки/clion-2019.3.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/ljonas/Рабочий стол/21/fdf"
+CMAKE_SOURCE_DIR = /Users/ljonas/fdf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/ljonas/Рабочий стол/21/fdf/cmake-build-debug"
+CMAKE_BINARY_DIR = /Users/ljonas/fdf/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = "/home/ljonas/Рабочий стол/21/fdf/cmake-build-debu
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/ljonas/Загрузки/clion-2019.3.4/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/ljonas/Загрузки/clion-2019.3.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ljonas/Рабочий стол/21/fdf/cmake-build-debug/CMakeFiles" "/home/ljonas/Рабочий стол/21/fdf/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ljonas/fdf/cmake-build-debug/CMakeFiles /Users/ljonas/fdf/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ljonas/Рабочий стол/21/fdf/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ljonas/fdf/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,60 @@ fdf/fast:
 	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/build
 .PHONY : fdf/fast
 
+calculate.o: calculate.c.o
+
+.PHONY : calculate.o
+
+# target to build an object file
+calculate.c.o:
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/calculate.c.o
+.PHONY : calculate.c.o
+
+calculate.i: calculate.c.i
+
+.PHONY : calculate.i
+
+# target to preprocess a source file
+calculate.c.i:
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/calculate.c.i
+.PHONY : calculate.c.i
+
+calculate.s: calculate.c.s
+
+.PHONY : calculate.s
+
+# target to generate assembly for a file
+calculate.c.s:
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/calculate.c.s
+.PHONY : calculate.c.s
+
+checks.o: checks.c.o
+
+.PHONY : checks.o
+
+# target to build an object file
+checks.c.o:
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/checks.c.o
+.PHONY : checks.c.o
+
+checks.i: checks.c.i
+
+.PHONY : checks.i
+
+# target to preprocess a source file
+checks.c.i:
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/checks.c.i
+.PHONY : checks.c.i
+
+checks.s: checks.c.s
+
+.PHONY : checks.s
+
+# target to generate assembly for a file
+checks.c.s:
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/checks.c.s
+.PHONY : checks.c.s
+
 clears.o: clears.c.o
 
 .PHONY : clears.o
@@ -150,32 +204,32 @@ clears.c.s:
 	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/clears.c.s
 .PHONY : clears.c.s
 
-draw.o: draw.c.o
+drawmap.o: drawmap.c.o
 
-.PHONY : draw.o
+.PHONY : drawmap.o
 
 # target to build an object file
-draw.c.o:
-	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/draw.c.o
-.PHONY : draw.c.o
+drawmap.c.o:
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/drawmap.c.o
+.PHONY : drawmap.c.o
 
-draw.i: draw.c.i
+drawmap.i: drawmap.c.i
 
-.PHONY : draw.i
+.PHONY : drawmap.i
 
 # target to preprocess a source file
-draw.c.i:
-	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/draw.c.i
-.PHONY : draw.c.i
+drawmap.c.i:
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/drawmap.c.i
+.PHONY : drawmap.c.i
 
-draw.s: draw.c.s
+drawmap.s: drawmap.c.s
 
-.PHONY : draw.s
+.PHONY : drawmap.s
 
 # target to generate assembly for a file
-draw.c.s:
-	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/draw.c.s
-.PHONY : draw.c.s
+drawmap.c.s:
+	$(MAKE) -f CMakeFiles/fdf.dir/build.make CMakeFiles/fdf.dir/drawmap.c.s
+.PHONY : drawmap.c.s
 
 errors.o: errors.c.o
 
@@ -832,14 +886,20 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... fdf"
 	@echo "... edit_cache"
+	@echo "... fdf"
+	@echo "... calculate.o"
+	@echo "... calculate.i"
+	@echo "... calculate.s"
+	@echo "... checks.o"
+	@echo "... checks.i"
+	@echo "... checks.s"
 	@echo "... clears.o"
 	@echo "... clears.i"
 	@echo "... clears.s"
-	@echo "... draw.o"
-	@echo "... draw.i"
-	@echo "... draw.s"
+	@echo "... drawmap.o"
+	@echo "... drawmap.i"
+	@echo "... drawmap.s"
 	@echo "... errors.o"
 	@echo "... errors.i"
 	@echo "... errors.s"

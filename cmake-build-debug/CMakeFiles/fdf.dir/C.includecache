@@ -6,21 +6,41 @@
 
 #IncludeRegexTransform: 
 
-../minilibx/mlx.h
+/Users/ljonas/fdf/calculate.c
+fdf.h
+/Users/ljonas/fdf/fdf.h
 
-/home/ljonas/Рабочий стол/21/fdf/fdf.h
+/Users/ljonas/fdf/checks.c
+fdf.h
+/Users/ljonas/fdf/fdf.h
+
+/Users/ljonas/fdf/clears.c
+fdf.h
+/Users/ljonas/fdf/fdf.h
+
+/Users/ljonas/fdf/drawmap.c
+fdf.h
+/Users/ljonas/fdf/fdf.h
+
+/Users/ljonas/fdf/errors.c
+fdf.h
+/Users/ljonas/fdf/fdf.h
+
+/Users/ljonas/fdf/fdf.h
 libft/libft.h
-/home/ljonas/Рабочий стол/21/fdf/libft/libft.h
+/Users/ljonas/fdf/libft/libft.h
 mlx.h
 -
 unistd.h
 -
 stdlib.h
 -
+math.h
+-
 stdio.h
 -
 
-/home/ljonas/Рабочий стол/21/fdf/libft/libft.h
+/Users/ljonas/fdf/libft/libft.h
 stdlib.h
 -
 string.h
@@ -32,9 +52,13 @@ stdio.h
 fcntl.h
 -
 
-/home/ljonas/Рабочий стол/21/fdf/main.c
+/Users/ljonas/fdf/main.c
 fdf.h
-/home/ljonas/Рабочий стол/21/fdf/fdf.h
+/Users/ljonas/fdf/fdf.h
 mlx.h
 -
+
+/Users/ljonas/fdf/read.c
+fdf.h
+/Users/ljonas/fdf/fdf.h
 

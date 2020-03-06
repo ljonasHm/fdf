@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/fdf.dir/calculate.c.o"
+  "CMakeFiles/fdf.dir/checks.c.o"
   "CMakeFiles/fdf.dir/clears.c.o"
-  "CMakeFiles/fdf.dir/draw.c.o"
+  "CMakeFiles/fdf.dir/drawmap.c.o"
   "CMakeFiles/fdf.dir/errors.c.o"
   "CMakeFiles/fdf.dir/libft/ft_atoi.c.o"
   "CMakeFiles/fdf.dir/libft/ft_bzero.c.o"

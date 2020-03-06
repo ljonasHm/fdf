@@ -11,7 +11,7 @@
 # **************************************************************************** #
 
 NAME = fdf
-SRC = main.c read.c errors.c clears.c calculate.c
+SRC = main.c read.c errors.c clears.c calculate.c drawmap.c checks.c
 OBJ = $(SRC:.c=.o)
 LIB_DIR = libft
 INC_DIR = . libft
