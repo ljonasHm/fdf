@@ -6,12 +6,12 @@
 #    By: ljonas <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/02/15 14:37:40 by ljonas            #+#    #+#              #
-#    Updated: 2020/03/02 13:06:08 by ljonas           ###   ########.fr        #
+#    Updated: 2020/03/07 17:55:44 by ljonas           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = fdf
-SRC = main.c read.c errors.c clears.c calculate.c drawmap.c checks.c
+SRC = main.c read.c errors.c clears.c calculate.c drawmap.c checks.c iso.c colors.c
 OBJ = $(SRC:.c=.o)
 LIB_DIR = libft
 INC_DIR = . libft

@@ -6,17 +6,17 @@
 /*   By: ljonas <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/02 12:15:30 by ljonas            #+#    #+#             */
-/*   Updated: 2020/03/05 15:13:53 by ljonas           ###   ########.fr       */
+/*   Updated: 2020/03/07 21:05:15 by ljonas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fdf.h"
 
-int     no_spcs_len(char *line)
+int		no_spcs_len(char *line)
 {
-	int i;
-	int n;
-	
+	int		i;
+	int		n;
+
 	i = 0;
 	n = 0;
 	while (line[i] != '\0')
@@ -25,7 +25,8 @@ int     no_spcs_len(char *line)
 			return (-1);
 		if (line[i] == '-' && i > 0 && line[i - 1] != ' ')
 			return (-1);
-		if ((line[i] < '0' || line[i] > '9') && line[i] != ' ' && line[i] != '-')
+		if ((line[i] < '0' || line[i] > '9')
+				&& line[i] != ' ' && line[i] != '-')
 			return (-1);
 		if (line[i] == ' ' && i > 0 && line[i - 1] != ' ')
 			n++;
@@ -36,35 +37,36 @@ int     no_spcs_len(char *line)
 	return (n);
 }
 
-int     mas_in(int *mas, char *line, t_fdf *fdf)
+int		mas_in(int *mas, char *line, t_fdf *fdf)
 {
-    char    **numstrr;
-    int     i;
+	char	**numstrr;
+	int		i;
 
 	i = 0;
-    numstrr = ft_strsplit(line, ' ');
-    while (numstrr[i])
-    {
-    	if (check_numstrr(numstrr[i]) == -1)
-	    {
-    		free_mas(numstrr, i);
-    		return(-1);
-	    }
-        mas[i] = ft_atoi(numstrr[i]);
-    	if (mas[i] > 5000 || mas[i] < -5000)
-    		antilag(mas[i], fdf);
-        free(numstrr[i]);
-        i++;
-    }
-    free(numstrr);
-    return(1);
+	numstrr = ft_strsplit(line, ' ');
+	while (numstrr[i])
+	{
+		if (check_numstrr(numstrr[i]) == -1)
+		{
+			free_mas(numstrr, i);
+			return (-1);
+		}
+		mas[i] = ft_atoi(numstrr[i]);
+		if (mas[i] * fdf->floorge * fdf->floor > 5000
+			|| mas[i] * fdf->floorge * fdf->floor < -5000)
+			antilag(mas[i], fdf);
+		free(numstrr[i]);
+		i++;
+	}
+	free(numstrr);
+	return (1);
 }
 
-void     read_hw(char *file, t_fdf *fdf)
+void	read_hw(char *file, t_fdf *fdf)
 {
-	int     fd;
-	char    *line;
-	
+	int		fd;
+	char	*line;
+
 	fdf->height = 0;
 	fdf->width = 0;
 	fd = open(file, O_RDONLY, 0);
@@ -81,32 +83,54 @@ void     read_hw(char *file, t_fdf *fdf)
 	close(fd);
 }
 
-void    read_fdf(t_fdf *fdf, char *file)
+void	fillmas(t_fdf *fdf, char *file)
 {
-	int i;
-	int fd;
-	char *line;
-	
+	int		i;
+	int		fd;
+	char	*line;
+
+	i = 0;
+	fd = open(file, O_RDONLY, 0);
+	while (get_next_line(fd, &line))
+	{
+		if (mas_in(fdf->mas[i], line, fdf) == -1)
+		{
+			free_masfdf(fdf, i);
+			fdf->width = -1;
+			break ;
+		}
+		free(line);
+		i++;
+	}
+	free(line);
+	close(fd);
+}
+
+void	read_fdf(t_fdf *fdf, char *file)
+{
+	int		i;
+
 	i = 0;
 	read_hw(file, fdf);
 	if (fdf->width != -1)
 	{
-		fdf->mas = (int **)malloc(sizeof(int *) * fdf->height + 1);
-		while (i < fdf->height)
-			fdf->mas[i++] = (int *)malloc(sizeof(int) * (fdf->width + 1));
-		fd = open(file, O_RDONLY, 0);
-		i = 0;
-		while (get_next_line(fd, &line))
+		if (!(fdf->mas = (int **)malloc(sizeof(int *) * fdf->height + 1)))
+			fdf->width = -1;
+		else
 		{
-			if (mas_in(fdf->mas[i], line, fdf) == -1)
+			while (i < fdf->height)
 			{
-				free_masfdf(fdf, i);
-				fdf->width = -1;
-				break ;
+				if (!(fdf->mas[i] = (int *)malloc(sizeof(int)
+								* (fdf->width + 1))))
+				{
+					free_masfdf(fdf, i);
+					fdf->width = -1;
+					break ;
+				}
+				i++;
 			}
-			free(line);
-			i++;
+			if (fdf->width != -1)
+				fillmas(fdf, file);
 		}
-		close(fd);
 	}
 }
